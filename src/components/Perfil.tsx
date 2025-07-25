@@ -15,7 +15,7 @@ const Perfil: React.FC = () => {
         >
           <Card className="shadow-sm border-0 rounded-4 p-4">
             <Card.Body>
-              <h2 className="text-center mb-4">Perfil Profesional</h2>
+              <h2 className="text-center mb-4" >Perfil Profesional</h2>
               <p className="fs-5 text-muted">
                 Soy una persona proactiva, responsable y orientada a resultados, con
                 capacidad para adaptarme a nuevos desafíos. Me esfuerzo

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
+import { FaGithub, FaInstagram, FaMapMarkerAlt } from "react-icons/fa";
 
 const Header: React.FC = () => {
     return (
@@ -39,13 +40,17 @@ const Header: React.FC = () => {
                         </div>
                     </Col>
 
-                    {/* Nombre y correo */}
+                    {/* Nombre y contacto */}
                     <Col md={9} className="text-md-start text-center">
                         <h1 className="display-5 fw-bold mb-2">
-                            Guillermo Jose Gomez Aguilera
+                            Guillermo Gomez | Desarrollador Frontend
                         </h1>
-                        <p className="lead mb-0">
+                        <p className="lead mb-1">
                             Correo: gomezguille391@gmail.com | Tel: 5535-8119
+                        </p>
+                        <p className="lead mb-0">
+                            <FaMapMarkerAlt className="me-2" />
+                            Guazacapan Santa Rosa, Guatemala
                         </p>
                     </Col>
                 </Row>
@@ -70,6 +75,30 @@ const Header: React.FC = () => {
                                 Contacto
                             </Nav.Link>
                         </Nav>
+                    </Col>
+                </Row>
+
+                {/* Botones de redes sociales */}
+                <Row className="mt-4">
+                    <Col className="text-center">
+                        <a
+                            href="https://github.com/GuillermoGome2z"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-light mx-2"
+                        >
+                            <FaGithub className="me-2" />
+                            GitHub
+                        </a>
+                        <a
+                            href="https://instagram.com/guille_gomezzz2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-light mx-2"
+                        >
+                            <FaInstagram className="me-2" />
+                            Instagram
+                        </a>
                     </Col>
                 </Row>
             </Container>
