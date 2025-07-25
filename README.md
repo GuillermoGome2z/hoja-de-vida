@@ -25,20 +25,15 @@ cd hoja-de-vida
 
 🔹 Instalar dependencias
 bash
-Copiar
-Editar
 npm install
+
 🔹 Ejecutar en modo desarrollo
 bash
-Copiar
-Editar
 npm run dev
 Abre tu navegador en http://localhost:5173 para ver la aplicación en desarrollo.
 
 🔹 Crear build de producción
 bash
-Copiar
-Editar
 npm run build
 Esto generará una carpeta llamada dist/ con los archivos listos para producción.
 
