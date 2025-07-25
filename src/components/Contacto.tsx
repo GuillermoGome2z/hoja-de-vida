@@ -68,7 +68,7 @@ const Contacto: React.FC = () => {
                         <input type="hidden" name="_template" value="box" />
 
                         <div className="mb-3">
-                            <label className="form-label fw-semibold">Nombre completo</label>
+                            <label className="text-center mb-4 text-dark">Nombre completo</label>
                             <input
                                 type="text"
                                 name="nombre"
@@ -79,7 +79,7 @@ const Contacto: React.FC = () => {
                         </div>
 
                         <div className="mb-3">
-                            <label className="form-label fw-semibold">Correo electrónico</label>
+                            <label className="text-center mb-4 text-dark">Correo electrónico</label>
                             <input
                                 type="email"
                                 name="email"
@@ -90,7 +90,7 @@ const Contacto: React.FC = () => {
                         </div>
 
                         <div className="mb-4">
-                            <label className="form-label fw-semibold">Mensaje</label>
+                            <label className="text-center mb-4 text-dark">Mensaje</label>
                             <textarea
                                 name="mensaje"
                                 className="form-control"
