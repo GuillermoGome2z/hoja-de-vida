@@ -43,7 +43,7 @@ const Header: React.FC = () => {
                     {/* Nombre y contacto */}
                     <Col md={9} className="text-md-start text-center">
                         <h1 className="display-5 fw-bold mb-2">
-                            Guillermo Gomez | Desarrollador Frontend
+                            Guillermo Gomez Aguilera | Desarrollador Frontend
                         </h1>
                         <p className="lead mb-1">
                             Correo: gomezguille391@gmail.com | Tel: 5535-8119
